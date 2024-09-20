@@ -1,0 +1,70 @@
+.quem-sou-eu {
+    text-align: center;
+    color: white;
+    background-color: #141414;
+    padding: 60px 20px;
+}
+
+.quem-sou-eu__image {
+    width: 220px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.quem-sou-eu__title {
+    font-family: 'Fira Mono', monospace;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.quem-sou-eu__description {
+    font-family: 'Fira Mono', monospace;
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.quem-sou-eu__subtitle {
+    font-family: 'Fira Mono', monospace;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.quem-sou-eu__experience {
+    font-family: 'Fira Mono', monospace;
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .quem-sou-eu__title {
+        font-size: 28px;
+    }
+
+    .quem-sou-eu__description, .quem-sou-eu__experience {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .quem-sou-eu__title {
+        font-size: 24px;
+    }
+
+    .quem-sou-eu__description, .quem-sou-eu__experience {
+        font-size: 14px;
+    }
+
+    .quem-sou-eu__image {
+        width: 200px;
+        height: 200px;
+    }
+}

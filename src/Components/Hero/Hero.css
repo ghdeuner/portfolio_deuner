@@ -1,0 +1,98 @@
+.hero {
+    text-align: center;
+    background-color: #141414;
+    color: white;
+    padding: 150px 20px; 
+    min-height: 100px; 
+}
+
+.hero__name {
+    font-family: 'Fira Mono', monospace; 
+    font-size: 48px;
+    font-weight: bold; 
+    margin: 0; 
+}
+
+.hero__description {
+    font-family: 'Fira Mono', monospace;
+    font-size: 24px; 
+    line-height: 1.5; 
+    margin: 20px auto 30px auto; 
+    max-width: 600px; 
+}
+
+.hero__buttons {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.hero__button {
+    background-color: white; 
+    color: black; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    font-family: 'Fira Mono', monospace; 
+    border: none;
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    text-decoration: none
+}
+
+.hero__button:hover {
+    background-color: #8331EB; 
+    color: white; 
+}
+
+.hero__icon {
+    font-size: 30px; 
+    color: white; 
+    transition: color 0.3s ease; 
+}
+
+.hero__icon:hover {
+    color: #8331EB; 
+}
+
+@media (max-width: 768px) {
+    .hero__name {
+        font-size: 36px; 
+    }
+
+    .hero__description {
+        font-size: 20px; 
+    }
+
+    .hero__buttons {
+        gap: 15px; 
+    }
+
+    .hero__icon {
+        font-size: 26px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .hero__name {
+        font-size: 28px;
+    }
+
+    .hero__description {
+        font-size: 18px; 
+    }
+
+    .hero__buttons {
+        flex-direction: center;
+        gap: 10px; 
+    }
+
+    .hero__icon {
+        font-size: 24px; 
+    }
+
+    .hero__button {
+        padding: 8px 15px; 
+    }
+}
