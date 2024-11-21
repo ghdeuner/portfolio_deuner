@@ -1,0 +1,78 @@
+.contact-form {
+    text-align: center;
+    color: white;
+    background-color: #141414; /* Fundo preto */
+    padding: 60px 20px;
+  }
+  
+  .contact-form__subtitle {
+    font-family: 'Fira Mono', monospace;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .contact-form__title {
+    font-family: 'Fira Mono', monospace;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .contact-form__description {
+    font-family: 'Fira Mono', monospace;
+    font-size: 16px;
+    margin: 0 auto 30px auto;
+    max-width: 600px;
+    line-height: 1.5;
+    color: #aaa;
+  }
+  
+  .contact-form__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .contact-form__input,
+  .contact-form__textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: 'Fira Mono', monospace;
+    color: #fff;
+    background-color: #333; /* Fundo escuro */
+    border: 1px solid #555; /* Borda discreta */
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .contact-form__textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .contact-form__input::placeholder,
+  .contact-form__textarea::placeholder {
+    color: #888; /* Cor do placeholder */
+  }
+  
+  .contact-form__button {
+    background-color: #007bff; /* Azul */
+    color: white;
+    font-family: 'Fira Mono', monospace;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form__button:hover {
+    background-color: #0056b3; /* Azul escuro no hover */
+  }
+  
